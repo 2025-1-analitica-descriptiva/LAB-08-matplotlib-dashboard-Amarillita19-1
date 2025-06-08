@@ -99,6 +99,8 @@ def create_visual_for_average_customer_rating(df):
     plt.savefig(os.path.join(OUTPUT_DIR, "average_customer_rating.png"), dpi=300)
     plt.close()
 
+    
+
 
 def create_visual_for_weight_distribution(df):
     """Histograma: distribución de peso de los envíos."""
